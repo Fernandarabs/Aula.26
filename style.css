@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 200vbpx;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background: #101010;
+    font-family: sans-serif;
+    color: rgb(42, 237, 42);
+
+}
+form h1 {
+    color: rgb(42, 237, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+
+form{
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: rgb(42, 237, 42);
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: borde-radius 0.3s;
+    box-shadow: 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: rgb(2, 84, 43);
+    box-shadow: 0.0.0.0.3125rem #101010;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button{
+    borde: none;
+    border-radius:99px;
+    color: black;
+    background: rgb(32, 235, 32);
+    cursor: pointer;
+    transition: 0.3s;
+}
